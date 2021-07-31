@@ -29,6 +29,7 @@ export default class Mercury {
   
   old(){
     let life = 80;
-    let older = Math.floor((this.age/.24) - (life/.24)) 
+    let older = Math.floor((this.age/.24) - (life/.24));
+    return older; 
   }
 }
