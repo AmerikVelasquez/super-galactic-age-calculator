@@ -14,16 +14,16 @@ export default class Jupiter {
   expectation(){
     let life = 80
     if (this.livingWage === "poor"){
-      life =Math.floor((life - 10)/11.86);
+      life =Math.floor(((life - 10)/11.86)- (this.age/11.86));
       return life;
     }
     else if (this.smoke === "yes"){
-      life = Math.floor((life- 8)/11.86);
+      life = Math.floor(((life- 8)/11.86)-(this.age /11.86)) ;
       return life;
     }
     else if (this.drink === "yes"){
-      life = Math.floor((life -10)/11.86);
-      return life;
+      life = Math.floor(((life -10)/11.86) -(this.age / 11.86));
+      return life ;
     }
   }
 }
