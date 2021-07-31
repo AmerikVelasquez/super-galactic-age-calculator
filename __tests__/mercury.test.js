@@ -8,7 +8,7 @@ describe('Mercury', () => {
   })
 
   test('should return life expectancy', () => {
-    const mercury2 = new Mercury(12)
-    expect(mercury2.expectation()).toEqual(333);
+    const mercury2 = new Mercury(12,"no","yes","rich")
+    expect(mercury2.expectation()).toEqual(291);
   })
 })
