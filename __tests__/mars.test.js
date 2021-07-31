@@ -9,6 +9,6 @@ describe('Mars', () => {
 
   test('should correctly show the life expectancy of someone living on mars', () => {
     const mars2 = new Mars(10,"yes","no","rich")
-    expect(mars2.expectation()).toEqual(38);
+    expect(mars2.expectation()).toEqual(32);
   })
 })
