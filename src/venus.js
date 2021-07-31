@@ -14,16 +14,16 @@ export default class Venus {
   expectation(){
     let life = 80
     if (this.livingWage === "poor"){
-      life =Math.floor((life - 10)/.62);
+      life =Math.floor(((life - 10)/.62)- (this.age/.62));
       return life;
     }
     else if (this.smoke === "yes"){
-      life = Math.floor((life- 8)/.62);
+      life = Math.floor(((life- 8)/.62)-(this.age /.62)) ;
       return life;
     }
     else if (this.drink === "yes"){
-      life = Math.floor((life -10)/.62);
-      return life;
+      life = Math.floor(((life -10)/.62) -(this.age / .62));
+      return life ;
     }
   }
 }

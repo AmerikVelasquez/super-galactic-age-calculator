@@ -9,6 +9,6 @@ describe('Venus', () => {
 
   test('should correctly show life expectancy on venus',() =>{
     const venus2 = new Venus(31,"no","no","poor")
-    expect(venus2.expectation()).toEqual(112);
+    expect(venus2.expectation()).toEqual(62);
   })
 })
