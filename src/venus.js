@@ -28,7 +28,9 @@ export default class Venus {
   }
 
   old(){
-    
+    let life = 80;
+    let older = Math.floor((this.age/.62) - (life/.62));
+    return older; 
   }
 }
 
