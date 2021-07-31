@@ -3,7 +3,7 @@ export default class Venus {
     this.age= age;
   }
 
-  convert(age){
+  convert(){
     const convertVenusAge = Math.floor(this.age / .62);
     return convertVenusAge;
   }

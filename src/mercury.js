@@ -3,7 +3,7 @@ export default class Mercury {
     this.age= age
   }
 
-  convert(age){
+  convert(){
     const convertMercuryAge = Math.floor(this.age / .24);
     return convertMercuryAge;
   }

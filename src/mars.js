@@ -3,7 +3,7 @@ export default class Mars {
     this.age = age;
   }
 
-  convert(age) {
+  convert() {
     const convertMarsAge = Math.floor(this.age * 1.88);
     return convertMarsAge;
   }
