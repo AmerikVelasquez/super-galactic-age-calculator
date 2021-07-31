@@ -4,6 +4,11 @@ describe('Mars', () => {
   
   test('should correctly change a persons age to the age in mars years', () => {
     const mars1 = new Mars(10)
-    expect(mars1.convert()).toEqual(18);
+    expect(mars1.convert()).toEqual(5);
+  })
+
+  test('should correctly show the life expectancy of someone living on mars', () => {
+    const mars2 = new Mars(10,"yes","no","rich")
+    expect(mars2.expectation()).toEqual(38);
   })
 })
