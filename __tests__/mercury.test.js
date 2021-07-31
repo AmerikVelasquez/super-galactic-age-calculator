@@ -11,4 +11,9 @@ describe('Mercury', () => {
     const mercury2 = new Mercury(12,"no","yes","rich")
     expect(mercury2.expectation()).toEqual(241);
   })
+
+  test('should return amount of years above life expectancy', () => {
+    const mercury3 = new Mercury(83,"no","yes","rich")
+    expect(mercury3.old()).toEqual(12);
+  })
 })
