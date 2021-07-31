@@ -26,5 +26,9 @@ export default class Venus {
       return life ;
     }
   }
+
+  old(){
+    
+  }
 }
 

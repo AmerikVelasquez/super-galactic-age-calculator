@@ -11,4 +11,9 @@ describe('Venus', () => {
     const venus2 = new Venus(31,"no","no","poor")
     expect(venus2.expectation()).toEqual(62);
   })
+
+  test('should correctly show how many years above life expectancy',() =>{
+    const venus3 = new Venus(86,"no","no","poor")
+    expect(venus3.old()).toEqual(9);
+  })
 })
