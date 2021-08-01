@@ -14,6 +14,6 @@ describe('Jupiter', () => {
 
   test('should correctly return years past life expectancy on jupiter', () =>{
     const jupiter3 = new Jupiter(85)
-    expect(jupiter3.old()).toEqual(1);
+    expect(jupiter3.old()).toEqual(0);
   })
 })

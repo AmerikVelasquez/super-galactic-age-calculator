@@ -28,6 +28,9 @@ export default class Jupiter {
   }
   
   old() {
-    
+    let life = 80;
+    let older = Math.floor((this.age/11.86) - (life/11.86));
+    return older; 
+
   }
 }
