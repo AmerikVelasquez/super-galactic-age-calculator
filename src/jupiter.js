@@ -26,4 +26,8 @@ export default class Jupiter {
       return life ;
     }
   }
+  
+  old() {
+    
+  }
 }
