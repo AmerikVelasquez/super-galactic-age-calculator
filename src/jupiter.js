@@ -1,8 +1,6 @@
 export default class Jupiter {
-  constructor(age, smoke, drink, livingWage) {
+  constructor(age, livingWage) {
     this.age = age;
-    this.smoke = smoke;
-    this.drink = drink;
     this.livingWage = livingWage;
   }
 
@@ -11,19 +9,11 @@ export default class Jupiter {
     return convertJupiterAge;
   }
 
-  expectation(){
+  expectation() {
     let life = 80
     if (this.livingWage === "poor"){
       life =Math.floor(((life - 10)/11.86)- (this.age/11.86));
       return life;
-    }
-    else if (this.smoke === "yes"){
-      life = Math.floor(((life- 8)/11.86)-(this.age /11.86)) ;
-      return life;
-    }
-    else if (this.drink === "yes"){
-      life = Math.floor(((life -10)/11.86) -(this.age / 11.86));
-      return life ;
     }
   }
   

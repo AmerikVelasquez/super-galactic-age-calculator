@@ -8,7 +8,7 @@ describe('Jupiter', () => {
   })
 
   test('should correctly give the life expectancy of someone living on jupiter', () =>{
-    const jupiter2 = new Jupiter(50, "no","yes", "poor")
+    const jupiter2 = new Jupiter(50,"poor")
     expect(jupiter2.expectation()).toEqual(1);
   })
 
