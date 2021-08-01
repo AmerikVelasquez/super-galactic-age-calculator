@@ -26,4 +26,8 @@ export default class Mars {
       return life ;
     }
   }
+
+  old(){
+    
+  }
 }
