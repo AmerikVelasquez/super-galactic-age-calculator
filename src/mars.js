@@ -28,6 +28,9 @@ export default class Mars {
   }
 
   old(){
-    
+    let life = 80;
+    let older = Math.floor((this.age/1.88) - (life/1.88));
+    return older; 
+  
   }
 }
